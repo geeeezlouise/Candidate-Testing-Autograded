@@ -56,7 +56,7 @@ function gradeQuiz(candidateAnswers) {
 
   
 
-  let grade
+  let grade = (gradedAnswers)/(correctAnswers.length) * 100
 
   return grade;
 }
